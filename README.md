@@ -2,7 +2,7 @@
 
 There are 4 different files and below are the details.
 
-Note: All the modules used, uses built-in **Google speech API
+Note: All the modules used, uses built-in **Google speech API**
 
 1) **Speech to text**: This uses **speech_recognition module** of python to read saved audio files to recognize it and convert into Text data.
 2) **Speech to text large_files**: This uses same as above and additionally uses **pydub module** to break large audio files into smaller chunks. Finally converts those and merge into one Text string.
